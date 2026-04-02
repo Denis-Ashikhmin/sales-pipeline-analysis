@@ -16,7 +16,7 @@ and build a Sales & Marketing SLA using HubSpot methodology.
 Assuming monthly revenue goal of $500,000:
 - Deals needed per month: 212
 - Opportunities needed: 416
-- Qualified leads needed: 442
+- Qualified leads needed: 443
 
 ### Tools Used
 SQL (SQLite) · Google Sheets · HubSpot SLA Framework
