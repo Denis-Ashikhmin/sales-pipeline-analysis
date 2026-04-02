@@ -3,14 +3,14 @@
 -- Based on HubSpot SLA Methodology
 -- ============================================
 
--- 1. **Lead-to-Opportunity Conversion Rate**
+-- 1. Lead-to-Opportunity Conversion Rate
 SELECT 
     COUNT(*) AS total_leads,
 	COUNT(CASE WHEN deal_stage!='Prospecting' THEN 1 END) AS opportunities,
 	ROUND(COUNT(CASE WHEN deal_stage!='Prospecting' THEN 1 END)*100.0/COUNT(*),2) AS lead_to_op_conv
 FROM 
     sales_pipeline;
--- 2. ** Opportunity-to-Close Conversion Rate**
+-- 2. Opportunity-to-Close Conversion Rate
 SELECT 
     COUNT(CASE WHEN deal_stage != 'Prospecting' THEN 1 END) AS total_opportunities,
     COUNT(CASE WHEN deal_stage = 'Won' THEN 1 END) AS new_customers,
