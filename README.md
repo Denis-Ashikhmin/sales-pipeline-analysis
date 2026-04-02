@@ -17,8 +17,8 @@ Assuming monthly revenue goal of $500,000:
 - Deals needed per month: 212
 - Opportunities needed: 416
 - Qualified leads needed: 443
-- 
-### SLA Statement:
+  
+### SLA Statement
 Every month, marketing must deliver **443 qualified leads** to sales,
 and sales must contact each lead within **24 hours** of receiving it.
 
