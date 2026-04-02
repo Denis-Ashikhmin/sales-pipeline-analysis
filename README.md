@@ -17,9 +17,19 @@ Assuming monthly revenue goal of $500,000:
 - Deals needed per month: 212
 - Opportunities needed: 416
 - Qualified leads needed: 443
+- 
+### SLA Statement:
+Every month, marketing must deliver **443 qualified leads** to sales,
+and sales must contact each lead within **24 hours** of receiving it.
 
 ### Tools Used
 SQL (SQLite) · Google Sheets · HubSpot SLA Framework
 
-### Data Source
-Maven Analytics — CRM Sales Opportunities Dataset
+### Dataset
+B2B sales pipeline data from a fictitious computer hardware company.  
+Source: Maven Analytics — CRM Sales Opportunities  
+Note: Prospecting-stage records do not contain contact dates, 
+which is consistent with real-world CRM data at early pipeline stages.
+
+### Files
+- [`analysis.sql`](https://github.com/Denis-Ashikhmin/sales-pipeline-analysis/blob/main/analysis.sql) — all SQL queries
