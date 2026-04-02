@@ -23,6 +23,3 @@ SQL (SQLite) · Google Sheets · HubSpot SLA Framework
 
 ### Data Source
 Maven Analytics — CRM Sales Opportunities Dataset
-```
-
----
